@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Data CRUD Pancaker</title>
   	<link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
