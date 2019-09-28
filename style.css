@@ -1,0 +1,46 @@
+.button {background-color: #008CBA;} /* Biru */
+body{
+	background:  #ccffe4;
+	font-family: sans-serif;
+}
+fieldset {
+	border: 1px solid #DDDDDD;
+	display: inline-block;
+	font-size: 14px;
+	padding: 1em 2em;
+}
+
+legend {
+	background: #ff6666;     /* Green */
+	color: #000000;          /* White */
+	margin-bottom: 10px;
+	padding: 0.5em 1em;
+}
+.table{
+        width: 700px;
+        margin: auto;
+      }
+ h1{
+        text-align: center;
+        color: #000000;
+      }
+.container{
+        width: 400px;
+        margin: auto;
+      }
+.zebra-table {
+width: 100%;
+border-collapse: collapse;
+box-shadow: 0 2px 3px 1px #00ffd5;
+overflow: hidden;
+border:8px solid #00ffd5;
+}
+.zebra-table th,.zebra-table td{
+vertical-align: top;
+padding:15px 15px;
+text-align: left;
+margin:0;
+}
+.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+background:#00ffd5;
+}/* End CSS for Zebra Table in index.html */
